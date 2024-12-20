@@ -1,0 +1,58 @@
+
+    Mother and Child Health Kit Data Analysis Report
+    =============================================
+    Generated on: 2024-12-19 20:46:49
+    
+    Dataset Overview
+    ---------------
+    Total Records: 28620
+    Time Period: November 2024 to November 2024
+    Number of Districts: 33
+    Number of Mandals: 578
+    
+    Key Statistics
+    -------------
+    Total Registrations: 28,612
+    Total Deliveries: 86,148
+    High Risk Cases: 33,602
+    Kits Distributed: 116
+    
+    ANC Visit Statistics
+    ------------------
+    1st ANC Visits: 50,545
+    2nd ANC Visits: 54,086
+    3rd ANC Visits: 46,678
+    4th ANC Visits: 49,351
+    
+    Top 5 Districts by Registration
+    ---------------------------
+    districtName
+Hyderabad                1836
+Bhadradri Kothagudem     1827
+Ranga Reddy              1813
+Nalgonda                 1807
+Medchal-Malkajgiri       1456
+    
+    Data Quality
+    -----------
+    Columns with Missing Values:
+                  Missing Values  Percentage Missing
+districtName               9            0.031447
+mandalName              3977           13.895877
+villageName             4923           17.201258
+    
+    Key Insights
+    -----------
+    1. Registration to Delivery Ratio: 301.09%
+    2. Average High Risk Cases per District: 1.21
+    3. ANC Visit Completion Rate: 97.64%
+    
+    Generated Files
+    --------------
+    1. basic_statistics.csv - Detailed statistical measures
+    2. missing_values_report.csv - Missing value analysis
+    3. district_distribution.png - District-wise distribution plot
+    4. mandal_distribution.png - Mandal-wise distribution plot
+    5. reg_vs_del.png - Registration vs Delivery comparison
+    6. anc_visits.png - ANC visits analysis
+    
